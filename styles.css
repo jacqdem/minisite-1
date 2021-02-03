@@ -1,0 +1,199 @@
+/* global elements */
+body {
+  background-color: white;
+  width: 100vw;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Sacramento', sans-serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 1rem 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 1rem 0;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 1rem 0;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 1rem 0;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Quicksand', serif;
+}
+
+.img-round {
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+  text-align: center;
+}
+
+/* global links */
+a {
+  color: #999999;
+  text-decoration: none;
+  font-family: Quicksand, sans-serif;
+}
+
+a:hover {
+  color: #888888;
+  text-decoration: none;
+  font-family: Quicksand, sans-serif;
+}
+
+a:active {
+  color: black;
+}
+
+/* desktop header/navigation */
+header {
+  background-color: tan;
+  border-style: none;
+}
+
+a.brand {
+  color: white;
+  font-family: Sacramento !important;
+}
+
+a.brand:hover {
+  color: lemonchiffon;
+}
+
+nav {
+  width: 100vw;
+  background-color: tan;
+}
+
+a.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: white;
+}
+
+a.nav-link:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: lemonchiffon;
+}
+
+a.nav-link:active {
+color: red;
+}
+
+/* mobile/responsive header/navigation */
+.navbar-mobile {
+  background-color: tan;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: Sacramento;
+  font-size: 3rem;
+}
+
+.navbar-brand:hover {
+  color: lemonchiffon;
+  font-family: Sacramento;
+  font-size: 3rem;
+}
+
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* body */
+.top-container {
+  height: auto;
+  margin: 0;
+  background-color: transparent;
+  color: #666666;
+}
+
+.middle-container {
+  height: auto;
+  margin: 0;
+  background-color: sienna;
+  color: white;
+}
+
+/* bottom container */
+.bottom-container {
+  height: auto;
+  margin: 0;
+  background-color: transparent;
+  color: #666666;
+}
+
+/* map */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* footer desktop */
+.footer-desktop {
+  background-color: peru;
+  color: white;
+}
+
+.footer-info {
+  font-size: .75rem;
+}
+
+.footer-link {
+  list-style: none;
+  text-decoration: none;
+  font-size: .75rem;
+  color: white !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+i {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+
+.footer-mobile {
+  background-color: peru;
+  color: white;
+}
