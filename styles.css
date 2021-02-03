@@ -64,10 +64,6 @@ a:hover {
   font-family: Quicksand, sans-serif;
 }
 
-a:active {
-  color: black;
-}
-
 /* desktop header/navigation */
 header {
   background-color: tan;
@@ -80,7 +76,7 @@ a.brand {
 }
 
 a.brand:hover {
-  color: lemonchiffon;
+  color: #315d49;
 }
 
 nav {
@@ -99,7 +95,7 @@ a.nav-link:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 1.5rem;
-  color: lemonchiffon;
+  color: #315d49;
 }
 
 a.nav-link:active {
@@ -119,7 +115,7 @@ color: red;
 }
 
 .navbar-brand:hover {
-  color: lemonchiffon;
+  color: #315d49;
   font-family: Sacramento;
   font-size: 3rem;
 }
@@ -169,20 +165,20 @@ color: red;
 
 /* footer desktop */
 .footer-desktop {
-  background-color: peru !important;
-  color: white !important;
+  background-color: #cd853f !important;
+  color: #ffffff !important;
 }
 
 .footer-info {
   font-size: .75rem;
-  color: white !important;
+  color: #ffffff !important;
 }
 
 .footer-link {
   list-style: none;
   text-decoration: none;
   font-size: .75rem;
-  color: white !important;
+  color: #ffffff !important;
 }
 
 ul {
@@ -196,6 +192,6 @@ i {
 
 
 .footer-mobile {
-  background-color: peru !important;
-  color: white !important;
+  background-color: #cd853f !important;
+  color: #ffffff !important;
 }
