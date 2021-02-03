@@ -168,7 +168,7 @@ color: red;
 }
 
 /* footer desktop */
-.footer-desktop {
+.desktop {
   background-color: peru;
   color: white;
 }
@@ -194,7 +194,7 @@ i {
 }
 
 
-.footer-mobile {
+.mobile {
   background-color: peru;
   color: white;
 }
