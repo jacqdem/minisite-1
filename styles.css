@@ -169,12 +169,13 @@ color: red;
 
 /* footer desktop */
 .desktop {
-  background-color: peru;
-  color: white;
+  background-color: peru !important;
+  color: white !important;
 }
 
 .footer-info {
   font-size: .75rem;
+  color: white !important;
 }
 
 .footer-link {
@@ -195,6 +196,6 @@ i {
 
 
 .mobile {
-  background-color: peru;
-  color: white;
+  background-color: peru !important;
+  color: white !important;
 }
